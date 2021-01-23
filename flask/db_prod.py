@@ -1,7 +1,7 @@
+from notejam import db
 from notejam import app as application
 from notejam.config import ProductionConfig
 
 application.config.from_object(ProductionConfig)
 
-if __name__ == '__main__':
-    application.run()
+db.create_all(app=application)

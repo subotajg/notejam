@@ -61,6 +61,12 @@ Start flask web server:
 
 Go to http://127.0.0.1:5000/ in your browser
 
+-----------
+Prod launch
+-----------
+
+See `scripts/prod_manual.sh`
+
 ---------
 Run tests
 ---------
